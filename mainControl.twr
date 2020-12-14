@@ -1,0 +1,259 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml mainControl.twx mainControl.ncd -o mainControl.twr
+mainControl.pcf -ucf mainControl.ucf
+
+Design file:              mainControl.ncd
+Physical constraint file: mainControl.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock PB1_P45
+-------------------------------+------------+------------+------------+------------+------------------+--------+
+                               |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source                         | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+-------------------------------+------------+------------+------------+------------+------------------+--------+
+DIP1<0>                        |    1.581(R)|      SLOW  |    0.289(R)|      SLOW  |PB1_P45_BUFGP     |   0.000|
+DIP1<1>                        |    1.323(R)|      SLOW  |    0.531(R)|      SLOW  |PB1_P45_BUFGP     |   0.000|
+DIP1<2>                        |    1.738(R)|      SLOW  |    0.025(R)|      SLOW  |PB1_P45_BUFGP     |   0.000|
+DIP1<3>                        |    1.482(R)|      SLOW  |    0.584(R)|      SLOW  |PB1_P45_BUFGP     |   0.000|
+DIP2<0>                        |    1.681(R)|      SLOW  |    0.267(R)|      SLOW  |PB1_P45_BUFGP     |   0.000|
+DIP2<1>                        |    1.834(R)|      SLOW  |    0.388(R)|      SLOW  |PB1_P45_BUFGP     |   0.000|
+DIP2<2>                        |   -0.277(R)|      FAST  |    1.998(R)|      SLOW  |PB1_P45_BUFGP     |   0.000|
+DIP2<3>                        |   -0.429(R)|      FAST  |    2.151(R)|      SLOW  |PB1_P45_BUFGP     |   0.000|
+K1ForLast2DigK2ForFrist2Dig<0> |    0.676(R)|      SLOW  |    1.197(R)|      SLOW  |PB1_P45_BUFGP     |   0.000|
+K1ForLast2DigK2ForFrist2Dig<1> |    0.168(R)|      SLOW  |    1.544(R)|      SLOW  |PB1_P45_BUFGP     |   0.000|
+K1ForLast2DigK2ForFrist2Dig<2> |    0.548(R)|      SLOW  |    1.463(R)|      SLOW  |PB1_P45_BUFGP     |   0.000|
+K1ForLast2DigK2ForFrist2Dig<3> |    0.387(R)|      SLOW  |    1.721(R)|      SLOW  |PB1_P45_BUFGP     |   0.000|
+K1ForLast2DigK2ForFrist2Dig<4> |    1.665(R)|      SLOW  |    0.317(R)|      SLOW  |PB1_P45_BUFGP     |   0.000|
+K1ForLast2DigK2ForFrist2Dig<5> |    1.733(R)|      SLOW  |    0.250(R)|      SLOW  |PB1_P45_BUFGP     |   0.000|
+K1ForLast2DigK2ForFrist2Dig<6> |    1.510(R)|      SLOW  |    0.472(R)|      SLOW  |PB1_P45_BUFGP     |   0.000|
+K1ForLast2DigK2ForFrist2Dig<7> |    1.695(R)|      SLOW  |    0.299(R)|      SLOW  |PB1_P45_BUFGP     |   0.000|
+K1ForLast2DigK2ForFrist2Dig<8> |    0.697(R)|      SLOW  |    1.131(R)|      SLOW  |PB1_P45_BUFGP     |   0.000|
+K1ForLast2DigK2ForFrist2Dig<9> |    0.645(R)|      SLOW  |    1.492(R)|      SLOW  |PB1_P45_BUFGP     |   0.000|
+K1ForLast2DigK2ForFrist2Dig<10>|    0.122(R)|      SLOW  |    1.590(R)|      SLOW  |PB1_P45_BUFGP     |   0.000|
+K1ForLast2DigK2ForFrist2Dig<11>|    0.401(R)|      SLOW  |    1.492(R)|      SLOW  |PB1_P45_BUFGP     |   0.000|
+K1ForLast2DigK2ForFrist2Dig<12>|    1.540(R)|      SLOW  |    0.599(R)|      SLOW  |PB1_P45_BUFGP     |   0.000|
+K1ForLast2DigK2ForFrist2Dig<13>|    0.985(R)|      SLOW  |    0.902(R)|      SLOW  |PB1_P45_BUFGP     |   0.000|
+K1ForLast2DigK2ForFrist2Dig<14>|   -0.787(R)|      FAST  |    2.671(R)|      SLOW  |PB1_P45_BUFGP     |   0.000|
+K1ForLast2DigK2ForFrist2Dig<15>|   -0.597(R)|      FAST  |    2.371(R)|      SLOW  |PB1_P45_BUFGP     |   0.000|
+SW1<0>                         |    2.574(R)|      SLOW  |   -0.699(R)|      SLOW  |PB1_P45_BUFGP     |   0.000|
+SW1<1>                         |    2.294(R)|      SLOW  |   -0.436(R)|      SLOW  |PB1_P45_BUFGP     |   0.000|
+SW1<2>                         |    2.131(R)|      SLOW  |   -0.168(R)|      SLOW  |PB1_P45_BUFGP     |   0.000|
+SW1<3>                         |    2.158(R)|      SLOW  |   -0.136(R)|      SLOW  |PB1_P45_BUFGP     |   0.000|
+SW2<0>                         |    2.037(R)|      SLOW  |   -0.219(R)|      SLOW  |PB1_P45_BUFGP     |   0.000|
+SW2<1>                         |    1.674(R)|      SLOW  |    0.210(R)|      SLOW  |PB1_P45_BUFGP     |   0.000|
+SW2<2>                         |    1.988(R)|      SLOW  |   -0.082(R)|      SLOW  |PB1_P45_BUFGP     |   0.000|
+SW2<3>                         |    1.569(R)|      SLOW  |    0.315(R)|      SLOW  |PB1_P45_BUFGP     |   0.000|
+-------------------------------+------------+------------+------------+------------+------------------+--------+
+
+Clock PB1_P45 to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+Buzzer      |        12.558(R)|      SLOW  |         7.058(R)|      FAST  |PB1_P45_BUFGP     |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock CLK_P123
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK_P123       |    1.547|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock PB1_P45
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+PB1_P45        |    1.075|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+-------------------------------+---------------+---------+
+Source Pad                     |Destination Pad|  Delay  |
+-------------------------------+---------------+---------+
+DIP1<0>                        |A_G<0>         |   12.748|
+DIP1<0>                        |A_G<1>         |   12.553|
+DIP1<0>                        |A_G<2>         |   12.220|
+DIP1<0>                        |A_G<3>         |   12.807|
+DIP1<0>                        |A_G<4>         |   12.884|
+DIP1<0>                        |A_G<5>         |   12.021|
+DIP1<0>                        |A_G<6>         |   12.464|
+DIP1<0>                        |Buzzer         |   11.987|
+DIP1<1>                        |A_G<0>         |   12.414|
+DIP1<1>                        |A_G<1>         |   12.507|
+DIP1<1>                        |A_G<2>         |   12.640|
+DIP1<1>                        |A_G<3>         |   12.832|
+DIP1<1>                        |A_G<4>         |   12.441|
+DIP1<1>                        |A_G<5>         |   11.923|
+DIP1<1>                        |A_G<6>         |   11.982|
+DIP1<1>                        |Buzzer         |   11.729|
+DIP1<2>                        |A_G<0>         |   12.959|
+DIP1<2>                        |A_G<1>         |   12.699|
+DIP1<2>                        |A_G<2>         |   12.584|
+DIP1<2>                        |A_G<3>         |   13.030|
+DIP1<2>                        |A_G<4>         |   12.994|
+DIP1<2>                        |A_G<5>         |   12.131|
+DIP1<2>                        |A_G<6>         |   12.574|
+DIP1<2>                        |Buzzer         |   12.144|
+DIP1<3>                        |A_G<0>         |   12.971|
+DIP1<3>                        |A_G<1>         |   12.567|
+DIP1<3>                        |A_G<2>         |   12.219|
+DIP1<3>                        |A_G<3>         |   13.042|
+DIP1<3>                        |A_G<4>         |   12.840|
+DIP1<3>                        |A_G<5>         |   11.754|
+DIP1<3>                        |A_G<6>         |   12.197|
+DIP1<3>                        |Buzzer         |   11.888|
+DIP2<0>                        |A_G<0>         |   12.904|
+DIP2<0>                        |A_G<1>         |   12.709|
+DIP2<0>                        |A_G<2>         |   12.376|
+DIP2<0>                        |A_G<3>         |   12.963|
+DIP2<0>                        |A_G<4>         |   13.040|
+DIP2<0>                        |A_G<5>         |   12.177|
+DIP2<0>                        |A_G<6>         |   12.620|
+DIP2<0>                        |Buzzer         |   12.087|
+DIP2<1>                        |A_G<0>         |   12.657|
+DIP2<1>                        |A_G<1>         |   12.750|
+DIP2<1>                        |A_G<2>         |   12.883|
+DIP2<1>                        |A_G<3>         |   13.075|
+DIP2<1>                        |A_G<4>         |   12.684|
+DIP2<1>                        |A_G<5>         |   12.166|
+DIP2<1>                        |A_G<6>         |   12.225|
+DIP2<1>                        |Buzzer         |   12.240|
+DIP2<2>                        |A_G<0>         |   12.696|
+DIP2<2>                        |A_G<1>         |   12.436|
+DIP2<2>                        |A_G<2>         |   12.321|
+DIP2<2>                        |A_G<3>         |   12.767|
+DIP2<2>                        |A_G<4>         |   12.731|
+DIP2<2>                        |A_G<5>         |   11.868|
+DIP2<2>                        |A_G<6>         |   12.311|
+DIP2<2>                        |Buzzer         |   10.027|
+DIP2<3>                        |A_G<0>         |   13.049|
+DIP2<3>                        |A_G<1>         |   12.645|
+DIP2<3>                        |A_G<2>         |   12.297|
+DIP2<3>                        |A_G<3>         |   13.120|
+DIP2<3>                        |A_G<4>         |   12.918|
+DIP2<3>                        |A_G<5>         |   11.832|
+DIP2<3>                        |A_G<6>         |   12.275|
+DIP2<3>                        |Buzzer         |    9.864|
+K1ForLast2DigK2ForFrist2Dig<0> |Buzzer         |   11.082|
+K1ForLast2DigK2ForFrist2Dig<1> |Buzzer         |   10.574|
+K1ForLast2DigK2ForFrist2Dig<2> |Buzzer         |   10.954|
+K1ForLast2DigK2ForFrist2Dig<3> |Buzzer         |   10.793|
+K1ForLast2DigK2ForFrist2Dig<4> |Buzzer         |   12.071|
+K1ForLast2DigK2ForFrist2Dig<5> |Buzzer         |   12.139|
+K1ForLast2DigK2ForFrist2Dig<6> |Buzzer         |   11.916|
+K1ForLast2DigK2ForFrist2Dig<7> |Buzzer         |   12.101|
+K1ForLast2DigK2ForFrist2Dig<8> |Buzzer         |   11.103|
+K1ForLast2DigK2ForFrist2Dig<9> |Buzzer         |   11.051|
+K1ForLast2DigK2ForFrist2Dig<10>|Buzzer         |   10.528|
+K1ForLast2DigK2ForFrist2Dig<11>|Buzzer         |   10.807|
+K1ForLast2DigK2ForFrist2Dig<12>|Buzzer         |   11.946|
+K1ForLast2DigK2ForFrist2Dig<13>|Buzzer         |   11.391|
+K1ForLast2DigK2ForFrist2Dig<14>|Buzzer         |    9.318|
+K1ForLast2DigK2ForFrist2Dig<15>|Buzzer         |    9.637|
+SW1<0>                         |A_G<0>         |   11.788|
+SW1<0>                         |A_G<1>         |   11.593|
+SW1<0>                         |A_G<2>         |   11.260|
+SW1<0>                         |A_G<3>         |   11.847|
+SW1<0>                         |A_G<4>         |   11.924|
+SW1<0>                         |A_G<5>         |   11.061|
+SW1<0>                         |A_G<6>         |   11.504|
+SW1<0>                         |Buzzer         |   12.980|
+SW1<1>                         |A_G<0>         |   11.327|
+SW1<1>                         |A_G<1>         |   11.420|
+SW1<1>                         |A_G<2>         |   11.553|
+SW1<1>                         |A_G<3>         |   11.745|
+SW1<1>                         |A_G<4>         |   11.354|
+SW1<1>                         |A_G<5>         |   10.836|
+SW1<1>                         |A_G<6>         |   10.895|
+SW1<1>                         |Buzzer         |   12.700|
+SW1<2>                         |A_G<0>         |   11.903|
+SW1<2>                         |A_G<1>         |   11.643|
+SW1<2>                         |A_G<2>         |   11.528|
+SW1<2>                         |A_G<3>         |   11.974|
+SW1<2>                         |A_G<4>         |   11.938|
+SW1<2>                         |A_G<5>         |   11.075|
+SW1<2>                         |A_G<6>         |   11.518|
+SW1<2>                         |Buzzer         |   12.537|
+SW1<3>                         |A_G<0>         |   11.731|
+SW1<3>                         |A_G<1>         |   11.327|
+SW1<3>                         |A_G<2>         |   10.979|
+SW1<3>                         |A_G<3>         |   11.802|
+SW1<3>                         |A_G<4>         |   11.600|
+SW1<3>                         |A_G<5>         |   10.514|
+SW1<3>                         |A_G<6>         |   10.957|
+SW1<3>                         |Buzzer         |   12.564|
+SW2<0>                         |A_G<0>         |   11.415|
+SW2<0>                         |A_G<1>         |   11.220|
+SW2<0>                         |A_G<2>         |   10.887|
+SW2<0>                         |A_G<3>         |   11.474|
+SW2<0>                         |A_G<4>         |   11.551|
+SW2<0>                         |A_G<5>         |   10.688|
+SW2<0>                         |A_G<6>         |   11.131|
+SW2<0>                         |Buzzer         |   12.443|
+SW2<1>                         |A_G<0>         |   10.837|
+SW2<1>                         |A_G<1>         |   10.930|
+SW2<1>                         |A_G<2>         |   11.063|
+SW2<1>                         |A_G<3>         |   11.255|
+SW2<1>                         |A_G<4>         |   10.864|
+SW2<1>                         |A_G<5>         |   10.346|
+SW2<1>                         |A_G<6>         |   10.405|
+SW2<1>                         |Buzzer         |   12.080|
+SW2<2>                         |A_G<0>         |   10.952|
+SW2<2>                         |A_G<1>         |   10.692|
+SW2<2>                         |A_G<2>         |   10.577|
+SW2<2>                         |A_G<3>         |   11.023|
+SW2<2>                         |A_G<4>         |   10.987|
+SW2<2>                         |A_G<5>         |   10.124|
+SW2<2>                         |A_G<6>         |   10.567|
+SW2<2>                         |Buzzer         |   12.394|
+SW2<3>                         |A_G<0>         |   11.369|
+SW2<3>                         |A_G<1>         |   10.965|
+SW2<3>                         |A_G<2>         |   10.617|
+SW2<3>                         |A_G<3>         |   11.440|
+SW2<3>                         |A_G<4>         |   11.238|
+SW2<3>                         |A_G<5>         |   10.152|
+SW2<3>                         |A_G<6>         |   10.595|
+SW2<3>                         |Buzzer         |   11.975|
+-------------------------------+---------------+---------+
+
+
+Analysis completed Mon Dec 14 22:29:03 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4572 MB
+
+
+

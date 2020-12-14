@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan6 -refsym segment_upgrade {C:/Users/naraw/Desktop/labTestDigi/try_shift_register - non/segment_upgrade.sch} C:/Users/naraw/Downloads/LAB06/LAB06/passwordChecker/segment_upgrade.sym 

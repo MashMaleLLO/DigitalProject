@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\naraw\Downloads\LAB06\LAB06\passwordChecker\mainControl.ncd
+OUTFILE=C:\Users\naraw\Downloads\LAB06\LAB06\passwordChecker\mainControl.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=C:\Users\naraw\Downloads\LAB06\LAB06\passwordChecker
+LICENSE=WebPack
+USER_INFO=__0_0_0

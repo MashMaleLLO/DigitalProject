@@ -1,0 +1,3 @@
+MODULE mainControl
+	SUBMODULE segment_upgrade
+		INSTANCE XLXI_1

@@ -1,0 +1,5 @@
+vhdl work "count09.vhf"
+vhdl work "HEX2SEG.vhf"
+vhdl work "div100k.vhf"
+vhdl work "segment_upgrade.vhf"
+vhdl work "mainControl.vhf"
